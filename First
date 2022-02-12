@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>First webpage</title>
+        <style>
+            #container{
+                height:100v;
+            }
+            body{
+                border: 1px solid;
+                height:600px;
+                width:350px;
+                margin: auto;
+                padding-top:2px;;
+            }
+           #name{
+                background-color: rgb(91, 235, 235);
+                text-align:center;
+               
+           }
+           img{
+               border-radius:50%;
+               
+           }
+           #color{
+               background-color: rgb(44, 1, 1);
+           }
+           #image{
+               text-align: center;
+               color:white;
+           }
+           p{
+              color:white;
+           }
+           tabele1{
+               color:white;
+               width: 300%;
+               padding: 10%;
+               
+           }
+           #buttoncolor{
+               padding-top: 2px;;
+               margin: 20px;
+               border:75px;
+               text-align:center;
+               
+           }
+           #background{
+               background-color: rgb(70, 22, 22);
+           }
+        </style>
+    </head>
+    <body>
+        <div id=""container">
+           <div id="name">
+              <h2>Adam Chris</h2>
+           </div>
+          <div id="background">
+           <div id="image">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" height="150px",width="150px"/>
+            </div>
+            <div>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatum unde,impedit temporibus harum numquam,quodipsa vel veritatis ipsum ut provident,quarent,quaerat eaque sed odit atque quibusdam cumque at rem.</b>
+                </p>
+            </div>
+            <table id="table1">
+                <tr>
+                    <th>
+                        <h4>108</h4>
+                        <h4>Posts</h4>
+                    </th>
+                    <th>
+                        <h4>108</h4>
+                        <h4>Following</h4>
+                    </th>
+                    <th>
+                        <h4>108</h4>
+                        <h4>Followers</h4>
+                    </th>
+                </tr>
+            </table>
+            <div id="buttoncolor">
+                <button>Follow</button>
+                <button>Message</button>
+            </div>
+         </div>
+        </div>
+    </body>
+</html>
